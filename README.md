@@ -51,5 +51,8 @@ cat <<EOF > /var/www/html/index.html
 EOF
 
 systemctl restart httpd
-## ✅ Result
-The EC2 instance successfully hosted a custom Apache web server, and the webpage was accessible via the public IP address.
+
+### 3. Result
+- The EC2 instance was successfully launched
+- Apache web server was installed and configured
+- Custom webpage was deployed and accessible via public IP
