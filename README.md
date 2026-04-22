@@ -1,32 +1,38 @@
 # Deploy a Custom Apache Web Server on EC2
 
 ## 📌 Project Overview
-In this project, I deployed a custom web server using Apache on an Amazon EC2 instance running Amazon Linux 2023. The setup was automated using User Data, which installs and configures everything automatically when the instance starts.
+In this project, I deployed a custom web server using Apache on an Amazon EC2 instance running Amazon Linux 2023. The setup was automated using User Data, allowing the server and a custom webpage to be configured automatically at launch.
 
----
+## 🚀 What I Did
+- Launched an EC2 instance on AWS
+- Configured security groups to allow HTTP and SSH access
+- Installed and started Apache (httpd)
+- Automated setup using EC2 User Data
+- Deployed a custom-designed HTML webpage
 
-## 🏗️ Architecture Diagram
-```mermaid
-flowchart TB
-    U[User / Browser] --> I[Internet]
-    I --> SG[Security Group (HTTP : 80)]
-    SG --> EC2[Amazon EC2 Instance]
-    EC2 --> APACHE[Apache Web Server (httpd)]
-    APACHE --> WEB[Custom HTML Web Page]
-🛠️ Technologies Used
-Amazon EC2
-Amazon Linux 2023
-Apache HTTP Server
-Bash scripting (User Data)
-AWS Security Groups
-⚙️ User Data Script
+## 🛠️ Technologies Used
+- Amazon EC2  
+- Amazon Linux 2023  
+- Apache (httpd)  
+- Bash scripting (User Data)
+
+## ⚙️ Setup Instructions
+
+### 1. Launch EC2 Instance
+- AMI: Amazon Linux 2023  
+- Instance Type: t2.micro  
+- Enabled Auto-assign Public IP  
+- Configured Security Group:
+  - HTTP (80) – Anywhere  
+  - SSH (22) – My IP  
+
+### 2. User Data Script
+```bash
 #!/bin/bash
 dnf update -y
 dnf install -y httpd
-
 systemctl start httpd
 systemctl enable httpd
-
 chown -R ec2-user:ec2-user /var/www/html
 
 cat <<EOF > /var/www/html/index.html
@@ -43,12 +49,9 @@ cat <<EOF > /var/www/html/index.html
 EOF
 
 systemctl restart httpd
-🚀 Steps Followed
-Launched an EC2 instance (Amazon Linux 2023, t2.micro)
-Configured Security Group (HTTP & SSH access)
-Added User Data script for automation
-Accessed the server using public IP
-🎯 Result
-The EC2 instance was successfully launched
-Apache web server was installed and configured automatically
-Custom webpage was deployed and accessible via public IP address
+```
+
+Result:
+- The EC2 instance was successfully launched
+- Apache web server was installed and configured automatically
+- Custom webpage was deployed and accessible via public IP address
