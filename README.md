@@ -59,7 +59,7 @@ Result:
 ## 📸 Screenshots
 
 ### 1. User Data Script
-![User Data Script](screenshots/EC2 User Data.png)
+![User Data Script](screenshots/ec2-data-user.png)
 > This script automates the entire Apache web server setup on launch.
 > Instead of manually SSHing into the instance, I used a User Data bash
 > script to install Apache, start the service, enable it on reboot, and
