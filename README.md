@@ -55,3 +55,12 @@ Result:
 - The EC2 instance was successfully launched
 - Apache web server was installed and configured automatically
 - Custom webpage was deployed and accessible via public IP address
+
+## 📸 Screenshots
+
+### 1. User Data Script
+![User Data Script](screenshots/user-data-script.png)
+> This script automates the entire Apache web server setup on launch.
+> Instead of manually SSHing into the instance, I used a User Data bash
+> script to install Apache, start the service, enable it on reboot, and
+> deploy a custom HTML page — all automatically when EC2 first boots.
