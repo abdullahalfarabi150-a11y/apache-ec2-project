@@ -64,5 +64,3 @@ Result:
 > Instead of manually SSHing into the instance, I used a User Data bash
 > script to install Apache, start the service, enable it on reboot, and
 > deploy a custom HTML page — all automatically when EC2 first boots.
-
----
