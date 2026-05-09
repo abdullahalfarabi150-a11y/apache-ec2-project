@@ -27,7 +27,7 @@ In this project, I deployed a custom web server using Apache on an Amazon EC2 in
   - SSH (22) – My IP  
 
 ### 2. User Data Script
-```bash
+```
 #!/bin/bash
 dnf update -y
 dnf install -y httpd
