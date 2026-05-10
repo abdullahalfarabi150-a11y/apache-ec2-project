@@ -66,4 +66,12 @@ Result:
 * script to install Apache, start the service, enable it on reboot, and
 * deploy a custom HTML page — all automatically when EC2 first boots.
 
-### 1. User Data Script
+### 1. EC2 Instance Dashboard
+![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/6396d33e3722a77f5da9aa3137aa63a9ed9bf038/user-data-script.png
+
+This shows the AWS EC2 instance used to host the Apache web server.
+
+* Displays the running EC2 instance status
+* Shows instance type and configuration details
+* Shows public IP address used to access the server
+* Confirms successful instance launch on AWS
