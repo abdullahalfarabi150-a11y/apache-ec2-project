@@ -85,3 +85,13 @@ This defines network access rules for the EC2 instance.
 * Enables HTTP traffic on port 80 for web access
 * Optionally allows HTTPS traffic on port 443
 * Controls inbound traffic for security of the server
+
+### 4. Final Website Output
+![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/e960261385394650989f73954a80ce71691c0496/Security-group-config.png
+
+The image confirms that the Apache web server is successfully hosting the website on an AWS EC2 instance.
+
+* Custom HTML page deployed on EC2
+* Website accessed using the EC2 Public IP address
+* Apache Web Server configured and running successfully
+* Verified successful end-to-end deployment using User Data
