@@ -66,7 +66,7 @@ Result:
 * script to install Apache, start the service, enable it on reboot, and
 * deploy a custom HTML page — all automatically when EC2 first boots.
 
-### 1. EC2 Instance Dashboard
+### 2. EC2 Instance Dashboard
 ![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/423001b900f55ec2ad4ff1d0b7cf881463e323cf/ec2-instance-dashboard.png)
 
 This shows the AWS EC2 instance used to host the Apache web server.
@@ -76,7 +76,7 @@ This shows the AWS EC2 instance used to host the Apache web server.
 * Shows public IP address used to access the server
 * Confirms successful instance launch on AWS
 
-### 1. Security Group Configuration
+### 3. Security Group Configuration
 ![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/e960261385394650989f73954a80ce71691c0496/Security-group-config.png)
 
 This defines network access rules for the EC2 instance.
