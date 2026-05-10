@@ -75,3 +75,13 @@ This shows the AWS EC2 instance used to host the Apache web server.
 * Shows instance type and configuration details
 * Shows public IP address used to access the server
 * Confirms successful instance launch on AWS
+
+### 1. Security Group Configuration
+![image alt](
+
+This defines network access rules for the EC2 instance.
+
+* Allows SSH access on port 22 for remote login
+* Enables HTTP traffic on port 80 for web access
+* Optionally allows HTTPS traffic on port 443
+* Controls inbound traffic for security of the server
