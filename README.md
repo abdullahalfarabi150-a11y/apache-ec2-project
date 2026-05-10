@@ -87,7 +87,7 @@ This defines network access rules for the EC2 instance.
 * Controls inbound traffic for security of the server
 
 ### 4. Final Website Output
-![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/e960261385394650989f73954a80ce71691c0496/Security-group-config.png
+![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/4319c4832794c8d1db76efb774618d359aa2a88c/final-website-output.png)
 
 The image confirms that the Apache web server is successfully hosting the website on an AWS EC2 instance.
 
