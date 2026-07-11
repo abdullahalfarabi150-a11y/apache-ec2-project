@@ -1,22 +1,22 @@
 # Deploy a Custom Apache Web Server on EC2
 
-## 📌 Project Overview
+##  Project Overview
 In this project, I deployed a custom web server using Apache on an Amazon EC2 instance running Amazon Linux 2023. The setup was automated using User Data, allowing the server and a custom webpage to be configured automatically at launch.
 
-## 🚀 What I Did
+##  What I Did
 - Launched an EC2 instance on AWS
 - Configured security groups to allow HTTP and SSH access
 - Installed and started Apache (httpd)
 - Automated setup using EC2 User Data
 - Deployed a custom-designed HTML webpage
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Amazon EC2  
 - Amazon Linux 2023  
 - Apache (httpd)  
 - Bash scripting (User Data)
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Launch EC2 Instance
 - AMI: Amazon Linux 2023  
