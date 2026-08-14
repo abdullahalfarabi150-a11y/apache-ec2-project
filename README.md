@@ -1,7 +1,9 @@
-# Deploy a Custom Apache Web Server on EC2
+# Deploy and Monitor a Custom Apache Web Server on AWS EC2
 
 ##  Project Overview
-In this project, I deployed a custom web server using Apache on an Amazon EC2 instance running Amazon Linux 2023. The setup was automated using User Data, allowing the server and a custom webpage to be configured automatically at launch.
+This project demonstrates the deployment, automation, monitoring, and alerting of a custom Apache web server on Amazon EC2.
+
+I used Amazon Linux 2023 and automated the Apache installation and website deployment using EC2 User Data. I then implemented Amazon CloudWatch to monitor CPU utilization and configured a CloudWatch Alarm with Amazon SNS to send email notifications when sustained high CPU utilization was detected.
 
 ##  What I Did
 - Launched an EC2 instance on AWS
