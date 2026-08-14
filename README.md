@@ -8,6 +8,7 @@ I used Amazon Linux 2023 and automated the Apache installation and website deplo
 ##  Architecture Flow:
 
 User → Internet → EC2 → Apache → Custom HTML Website
+
 EC2 CPU Utilization → CloudWatch → CloudWatch Alarm → SNS → Email Notification
 
 This architecture demonstrates a basic AWS cloud environment combining compute, web hosting, automation, monitoring, and automated alerting.
