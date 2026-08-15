@@ -17,11 +17,11 @@ This architecture demonstrates a basic AWS cloud environment combining compute, 
 
 AWS Services
 
- Amazon EC2 
- Amazon CloudWatch 
- Amazon SNS 
- AWS Security Groups 
- EC2 User Data
+ - Amazon EC2 
+ - Amazon CloudWatch 
+ - Amazon SNS 
+ - AWS Security Groups 
+ - EC2 User Data
 
 ##  Setup Instructions
 
