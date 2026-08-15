@@ -30,15 +30,15 @@ Programming & Tools
 - HTML 
 - SSH
 
-##  Setup Instructions
+##  Deployment & Configuration:
 
-### 1. Launch EC2 Instance
-- AMI: Amazon Linux 2023  
-- Instance Type: t2.micro  
-- Enabled Auto-assign Public IP  
-- Configured Security Group:
-  - HTTP (80) – Anywhere  
-  - SSH (22) – My IP  
+### 1. EC2 Instance Deployment
+An Amazon EC2 instance was launched using Amazon Linux 2023 with a t2.micro instance type and a public IPv4 address enabled.
+
+A Security Group was configured to allow:
+
+HTTP (Port 80) from anywhere for public website access.
+SSH (Port 22) from my IP address for secure remote administration.
 
 ### 2. User Data Script
 ```bash
