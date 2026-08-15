@@ -55,7 +55,7 @@ During the instance launch process, the Bash script automatically:
 This automated the initial web server setup without requiring manual Apache installation after connecting to the instance.
 
 ### 3. Custom Webpage
-The initial webpage was deployed automatically through the User Data script. After verifying that the Apache server was working successfully, I updated and redesigned the webpage to create a more customized final website for the project.
+The initial webpage was deployed automatically through the User Data script. After verifying that the Apache server was working successfully, I updated and redesigned the webpage to create a more customized final website for the project. 
 
 The final webpage is hosted at:
 
