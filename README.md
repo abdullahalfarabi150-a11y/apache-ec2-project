@@ -90,7 +90,22 @@ systemctl restart httpd
 ```
 Note: The User Data script created the initial webpage during EC2 deployment. After confirming the deployment was successful, I later modified the HTML file to create the final customized webpage.
 
-## 📸 Screenshots
+## Monitoring & Alerting:
+After successfully deploying the Apache web server, I extended the project by implementing Amazon CloudWatch monitoring and Amazon SNS email alerting.
+
+### 1. CloudWatch Monitoring
+Amazon CloudWatch was configured to monitor the EC2 instance's CPU Utilization metric. A CloudWatch Alarm was created to detect sustained high CPU utilization.
+
+Alarm Configuration:
+
+- Metric: CPU Utilization
+- Period: 5 minutes
+- Datapoints to alarm: 1 out of 1
+- Alarm action: Send notification through Amazon SNS
+
+The 1 out of 1 configuration means CloudWatch evaluates three consecutive 5 minute periods. The alarm enters the ALARM state when the configured CPU condition is met across the required evaluation periods.
+
+## Screenshots:
 
 ### 1. User Data Script
 ![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/6396d33e3722a77f5da9aa3137aa63a9ed9bf038/user-data-script.png)
