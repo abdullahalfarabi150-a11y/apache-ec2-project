@@ -160,6 +160,11 @@ Shows the CPU utilization alarm configured with a 5 minute evaluation period and
 Shows the CloudWatch Alarm entering the ALARM state after sustained high CPU utilization was generated during testing.
 
 ### 6. SNS Configuration
-![image alt](
+![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/fd116041c0bbcb6248d4ce2a5f0078348802aa71/sns-configurartion.png)
 
 Shows the Amazon SNS topic and confirmed email subscription configured to receive CloudWatch alarm notifications.
+
+### 7. SNS Email Notification
+![image alt](
+
+Shows the email notification successfully received after the CloudWatch Alarm was triggered.
