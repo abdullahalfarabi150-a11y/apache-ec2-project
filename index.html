@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWS Apache Web Server Project</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #232f3e, #146eb4);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #232f3e;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #146eb4;
+    margin-bottom: 10px;
+}
+
+.status {
+    text-align: center;
+}
+
+.status ul {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.status li {
+    margin: 15px 0;
+}
+
+.about {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚀 AWS Apache Web Server Project</h1>
+    <p>Deployed on Amazon EC2 | Monitored with Amazon CloudWatch</p>
+</header>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Project Overview</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🖥 Amazon EC2</h3>
+                <p>Apache Web Server deployed on Amazon Linux 2023 using AWS EC2.</p>
+            </div>
+
+            <div class="card">
+                <h3>💾 Amazon EBS</h3>
+                <p>Persistent storage attached to the EC2 instance.</p>
+            </div>
+
+            <div class="card">
+                <h3>🔐 IAM Role</h3>
+                <p>Secure permissions assigned using AWS IAM roles.</p>
+            </div>
+
+            <div class="card">
+                <h3>📊 CloudWatch</h3>
+                <p>Monitoring CPU utilization, system health and alarms.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container status">
+        <h2 class="section-title">System Status</h2>
+
+        <ul>
+            <li>✅ Apache Web Server Running</li>
+            <li>✅ EC2 Instance Online</li>
+            <li>✅ CloudWatch Monitoring Enabled</li>
+            <li>✅ Security Groups Configured</li>
+            <li>✅ SSH Administration Enabled</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Project Objectives</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Infrastructure</h3>
+                <p>Create and manage AWS infrastructure securely.</p>
+            </div>
+
+            <div class="card">
+                <h3>Monitoring</h3>
+                <p>Track performance and system health using CloudWatch.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cloud Engineering</h3>
+                <p>Gain hands-on AWS experience for cloud and platform engineering roles.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="about">
+            <h2>👨‍💻 About the Engineer</h2>
+            <br>
+            <h3>Mohammed Abdullah Al Farabi</h3>
+            <p>Aspiring Cloud & Data Engineer</p>
+            <p>AWS Solution Architect Associate Candidate</p>
+            <p>Passionate about AWS, Linux, Terraform, Python and Cloud Technologies.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Built on AWS EC2 • Apache HTTP Server • Amazon CloudWatch</p>
+    <p>© 2026 Mohammed Abdullah Al Farabi</p>
+</footer>
+
+</body>
+</html>
+
+
