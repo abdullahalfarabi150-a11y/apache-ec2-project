@@ -105,6 +105,33 @@ Alarm Configuration:
 
 The 1 out of 1 configuration means CloudWatch evaluates three consecutive 5 minute periods. The alarm enters the ALARM state when the configured CPU condition is met across the required evaluation periods.
 
+### 2. SNS Email Alerting
+Amazon SNS was integrated with the CloudWatch Alarm to provide email notifications.
+
+The configuration included:
+
+- Creating an SNS topic
+- Adding an email subscription
+- Confirming the email subscription
+- Connecting the SNS topic to the CloudWatch Alarm
+
+When the alarm condition is met, CloudWatch changes the alarm to the ALARM state and sends a notification through SNS.
+
+### 3. Monitoring Test
+The monitoring system was tested by generating CPU load on the EC2 instance using:
+
+yes > /dev/null &
+
+This increased CPU utilization and allowed the CloudWatch Alarm to be tested.
+
+After testing, the CPU-intensive process was stopped using:
+
+pkill yes
+
+The test demonstrated the complete monitoring and alerting workflow:
+
+EC2 → CloudWatch → CloudWatch Alarm → SNS → Email Notification
+
 ## Screenshots:
 
 ### 1. User Data Script
