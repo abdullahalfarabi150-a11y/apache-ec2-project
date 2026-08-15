@@ -168,3 +168,18 @@ Shows the Amazon SNS topic and confirmed email subscription configured to receiv
 ![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/9b515127403ee6b6aa977dfbc2548585faf49d8f/sns-email-notification.png) 
 
 Shows the email notification successfully received after the CloudWatch Alarm was triggered.
+
+## Project Outcome:
+Successfully deployed and monitored a custom Apache web server on Amazon EC2.
+
+The project demonstrates an end-to-end AWS workflow covering:
+
+- Automated Apache deployment using EC2 User Data
+- Custom HTML webpage hosting
+- Secure network access using AWS Security Groups
+- EC2 CPU monitoring using Amazon CloudWatch
+- Automated CPU utilization alerting
+- Email notifications using Amazon SNS
+- End-to-end testing of the monitoring and alerting workflow
+
+The completed solution demonstrates how AWS services can be combined to deploy, monitor, and manage a basic web server environment.
