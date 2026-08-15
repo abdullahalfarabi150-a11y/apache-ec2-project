@@ -149,7 +149,12 @@ Shows the network access rules configured to securely manage the instance throug
 
 Shows the final customized webpage successfully hosted by Apache and accessed through the EC2 instance's public IPv4 address.
 
-### 3. CloudWatch Alarm Configuration
-![image alt](
+### 4. CloudWatch Alarm Configuration
+![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/51deb0886ee8416a50d2223af77c51f71baae22e/alarm-configuration.png)
 
 Shows the CPU utilization alarm configured with a 5 minute evaluation period and 1 out of 1 datapoints required to trigger the alarm.
+
+### 5. CloudWatch Alarm State
+![image alt](
+
+Shows the CloudWatch Alarm entering the ALARM state after sustained high CPU utilization was generated during testing.
