@@ -134,32 +134,15 @@ EC2 → CloudWatch → CloudWatch Alarm → SNS → Email Notification
 
 ## Screenshots:
 
-### 2. EC2 Instance Dashboard
+### 1. EC2 Instance Dashboard
 ![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/423001b900f55ec2ad4ff1d0b7cf881463e323cf/ec2-instance-dashboard.png)
 
-This shows the AWS EC2 instance used to host the Apache web server.
+Shows the running Amazon EC2 instance and its key configuration used to host the Apache web server.
 
-* Displays the running EC2 instance status
-* Shows instance type and configuration details
-* Shows public IP address used to access the server
-* Confirms successful instance launch on AWS
-
-### 3. Security Group Configuration
+### 2. Security Group Configuration
 ![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/e960261385394650989f73954a80ce71691c0496/Security-group-config.png)
 
-This defines network access rules for the EC2 instance.
+Shows the network access rules configured to securely manage the instance through SSH and provide public HTTP access.
 
-* Allows SSH access on port 22 for remote login
-* Enables HTTP traffic on port 80 for web access
-* Optionally allows HTTPS traffic on port 443
-* Controls inbound traffic for security of the server
-
-### 4. Final Website Output
-![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/4319c4832794c8d1db76efb774618d359aa2a88c/final-website-output.png)
-
-The image confirms that the Apache web server is successfully hosting the website on an AWS EC2 instance.
-
-* Custom HTML page deployed on EC2
-* Website accessed using the EC2 Public IP address
-* Apache Web Server configured and running successfully
-* Verified successful end-to-end deployment using User Data
+### 3. Final Website Output
+![image alt]
