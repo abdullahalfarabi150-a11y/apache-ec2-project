@@ -165,6 +165,6 @@ Shows the CloudWatch Alarm entering the ALARM state after sustained high CPU uti
 Shows the Amazon SNS topic and confirmed email subscription configured to receive CloudWatch alarm notifications.
 
 ### 7. SNS Email Notification
-![image alt](
+![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/b0b6c3bd0284ae70222a13b0a614616ddc1f7c27/sns-email-notification.png)
 
 Shows the email notification successfully received after the CloudWatch Alarm was triggered.
