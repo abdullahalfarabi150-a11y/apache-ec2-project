@@ -40,6 +40,20 @@ A Security Group was configured to allow:
 HTTP (Port 80) from anywhere for public website access.
 SSH (Port 22) from my IP address for secure remote administration.
 
+### 2. Automated Apache Deployment
+EC2 User Data was used to automate the initial server configuration.
+
+During the instance launch process, the Bash script automatically:
+
+Updated the operating system packages
+Installed the Apache HTTP Server (httpd)
+Started the Apache service
+Enabled Apache to start automatically after reboot
+Configured permissions for the web directory
+Created and deployed the initial HTML webpage
+
+This automated the initial web server setup without requiring manual Apache installation after connecting to the instance.
+
 ### 2. User Data Script
 ```bash
 #!/bin/bash
