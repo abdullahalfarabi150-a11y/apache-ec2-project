@@ -88,11 +88,7 @@ EOF
 
 systemctl restart httpd
 ```
-
-Result:
-- The EC2 instance was successfully launched
-- Apache web server was installed and configured automatically
-- Custom webpage was deployed and accessible via public IP address
+Note: The User Data script created the initial webpage during EC2 deployment. After confirming the deployment was successful, I later modified the HTML file to create the final customized webpage.
 
 ## 📸 Screenshots
 
