@@ -20,6 +20,13 @@ AWS Services
 - Amazon SNS 
 - AWS Security Groups 
 - EC2 User Data
+Operating System & Web Server
+- Amazon Linux 2023 
+- Apache HTTP Server 
+Programming & Tools
+- Bash / Shell Scripting 
+- HTML 
+- SSH
 
 ##  Setup Instructions
 
