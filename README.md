@@ -63,7 +63,7 @@ The final webpage is hosted at:
 
 The website was accessed through the EC2 instance's public IPv4 address.
 
-### 2. User Data Script
+### User Data Script
 ```bash
 #!/bin/bash
 dnf update -y
