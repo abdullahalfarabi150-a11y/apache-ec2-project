@@ -54,6 +54,15 @@ During the instance launch process, the Bash script automatically:
 
 This automated the initial web server setup without requiring manual Apache installation after connecting to the instance.
 
+### 3. Custom Webpage
+The initial webpage was deployed automatically through the User Data script. After verifying that the Apache server was working successfully, I updated and redesigned the webpage to create a more customized final website for the project.
+
+The final webpage is hosted at:
+
+/var/www/html/index.html
+
+The website was accessed through the EC2 instance's public IPv4 address.
+
 ### 2. User Data Script
 ```bash
 #!/bin/bash
