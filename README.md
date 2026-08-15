@@ -145,4 +145,4 @@ Shows the running Amazon EC2 instance and its key configuration used to host the
 Shows the network access rules configured to securely manage the instance through SSH and provide public HTTP access.
 
 ### 3. Final Website Output
-![image alt]
+![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/92b85de7e9b8c9f0d6b4c3487717496f4b3dab53/final-website.png)
