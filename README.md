@@ -13,11 +13,15 @@ EC2 CPU Utilization → CloudWatch → CloudWatch Alarm → SNS → Email Notifi
 
 This architecture demonstrates a basic AWS cloud environment combining compute, web hosting, automation, monitoring, and automated alerting.
 
-##  Technologies Used
-- Amazon EC2  
-- Amazon Linux 2023  
-- Apache (httpd)  
-- Bash scripting (User Data)
+##  Technologies & Services Used:
+
+AWS Services
+
+ Amazon EC2 
+ Amazon CloudWatch 
+ Amazon SNS 
+ AWS Security Groups 
+ EC2 User Data
 
 ##  Setup Instructions
 
