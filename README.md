@@ -155,6 +155,11 @@ Shows the final customized webpage successfully hosted by Apache and accessed th
 Shows the CPU utilization alarm configured with a 5 minute evaluation period and 1 out of 1 datapoints required to trigger the alarm.
 
 ### 5. CloudWatch Alarm State
-![image alt](
+![image alt](https://github.com/abdullahalfarabi150-a11y/apache-ec2-project/blob/889a6b8379ebded32b1dcf5c05121ae982c61cec/cloudwatch-alarm-state.png)
 
 Shows the CloudWatch Alarm entering the ALARM state after sustained high CPU utilization was generated during testing.
+
+### 6. SNS Configuration
+![image alt](
+
+Shows the Amazon SNS topic and confirmed email subscription configured to receive CloudWatch alarm notifications.
