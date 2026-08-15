@@ -33,7 +33,7 @@ Programming & Tools
 ##  Deployment & Configuration:
 
 ### 1. EC2 Instance Deployment
-An Amazon EC2 instance was launched using Amazon Linux 2023 with a t3.micro instance type and a public IPv4 address enabled.
+An Amazon EC2 instance was launched using Amazon Linux 2023 with a t3.micro instance type and a public IPv4 address enabled. 
 
 A Security Group was configured to allow:
 
