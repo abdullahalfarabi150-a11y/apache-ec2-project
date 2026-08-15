@@ -14,14 +14,12 @@ EC2 CPU Utilization → CloudWatch → CloudWatch Alarm → SNS → Email Notifi
 This architecture demonstrates a basic AWS cloud environment combining compute, web hosting, automation, monitoring, and automated alerting.
 
 ##  Technologies & Services Used:
-
 AWS Services
-
- - Amazon EC2 
- - Amazon CloudWatch 
- - Amazon SNS 
- - AWS Security Groups 
- - EC2 User Data
+- Amazon EC2 
+- Amazon CloudWatch 
+- Amazon SNS 
+- AWS Security Groups 
+- EC2 User Data
 
 ##  Setup Instructions
 
