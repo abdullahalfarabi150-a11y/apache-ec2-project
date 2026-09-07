@@ -103,7 +103,7 @@ Alarm Configuration:
 - Datapoints to alarm: 1 out of 1
 - Alarm action: Send notification through Amazon SNS
 
-The 1 out of 1 configuration means CloudWatch evaluates three consecutive 5 minute periods. The alarm enters the ALARM state when the configured CPU condition is met across the required evaluation periods.
+The 1 out of 1 configuration means the alarm enters the ALARM state when one evaluated 5 minute datapoint meets the configured threshold. The alarm enters the ALARM state when the configured CPU condition is met across the required evaluation periods.
 
 ### 2. SNS Email Alerting
 Amazon SNS was integrated with the CloudWatch Alarm to provide email notifications.
